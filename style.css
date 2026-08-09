@@ -140,7 +140,7 @@ button {
 }
 
 .hero {
-    min-height: 100vh;
+    min-height: 200vh;
     position: relative;
     background-image: url("./profile.jpg");
     background-size: cover;
