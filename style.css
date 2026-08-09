@@ -527,17 +527,17 @@ button {
 
 .project-image {
     height: 200px;
-
+    overflow: hidden;
     display: flex;
-
     justify-content: center;
     align-items: center;
-
     background: #222;
+}
 
-    color: #70c500;
-
-    font-size: 50px;
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
